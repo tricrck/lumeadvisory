@@ -95,7 +95,7 @@ const TermsOfService = () => {
                   Phone: +254 XXX XXX XXX
                 </p>
                 <p className="text-gray-600 mt-4">
-                  Please also review our <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-700">Privacy Policy</Link> which explains how we collect, use, and protect your personal information.
+                  Please also review our <Link to="/privacy-policy" className="text-primary-600 hover:text-primary-700">Privacy Policy</Link> which explains how we collect, use, and protect your personal information.
                 </p>
               </section>
             </div>

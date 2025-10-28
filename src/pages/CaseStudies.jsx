@@ -53,7 +53,7 @@ const CaseStudies = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-20">
+        <section className="bg-gradient-to-br from-gray-50 to-primary-50 py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -72,8 +72,8 @@ const CaseStudies = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {caseStudies.map((study) => (
                 <div key={study.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all">
-                  <div className="h-48 bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center">
-                    <div className="text-blue-600 opacity-20">
+                  <div className="h-48 bg-gradient-to-br from-primary-100 to-indigo-100 flex items-center justify-center">
+                    <div className="text-primary-600 opacity-20">
                       <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>
@@ -81,7 +81,7 @@ const CaseStudies = () => {
                   </div>
                   <div className="p-6">
                     <div className="flex items-center gap-2 mb-3">
-                      <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                      <span className="bg-primary-100 text-primary-800 text-xs px-2 py-1 rounded">
                         {study.service}
                       </span>
                       <span className="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">
@@ -100,7 +100,7 @@ const CaseStudies = () => {
                     </div>
                     <Link
                       to={`/case-studies/${study.slug}`}
-                      className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
+                      className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
                     >
                       Read Full Case Study
                       <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -125,19 +125,19 @@ const CaseStudies = () => {
 
             <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
               <div>
-                <div className="text-5xl font-bold text-blue-600 mb-2">50+</div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">50+</div>
                 <p className="text-gray-600">Projects Delivered</p>
               </div>
               <div>
-                <div className="text-5xl font-bold text-blue-600 mb-2">95%</div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">95%</div>
                 <p className="text-gray-600">Client Satisfaction</p>
               </div>
               <div>
-                <div className="text-5xl font-bold text-blue-600 mb-2">4</div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">4</div>
                 <p className="text-gray-600">Countries Served</p>
               </div>
               <div>
-                <div className="text-5xl font-bold text-blue-600 mb-2">15+</div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">15+</div>
                 <p className="text-gray-600">Years Experience</p>
               </div>
             </div>
@@ -155,7 +155,7 @@ const CaseStudies = () => {
             </p>
             <Link
               to="/contact"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg"
+              className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg"
             >
               Start Your Transformation
             </Link>

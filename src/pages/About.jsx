@@ -77,7 +77,7 @@ const About = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-20">
+        <section className="bg-gradient-to-br from-primary-50 to-indigo-50 py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -128,7 +128,7 @@ const About = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {member.name}
                   </h3>
-                  <p className="text-blue-600 font-semibold mb-4">
+                  <p className="text-primary-600 font-semibold mb-4">
                     {member.role}
                   </p>
                   <p className="text-gray-600">
@@ -187,7 +187,7 @@ const About = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
               {values.map((value, index) => (
                 <div key={index} className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-100 text-primary-600 mb-4">
                     {value.icon}
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">
@@ -223,24 +223,24 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-blue-600 text-white">
+        <section className="py-20 bg-primary-600 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Work Together?
             </h2>
-            <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+            <p className="text-xl mb-8 text-primary-100 max-w-2xl mx-auto">
               Let's discuss how Lume Advisory can help you achieve your digital transformation goals
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/services"
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all font-semibold text-lg shadow-lg"
+                className="bg-white text-primary-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all font-semibold text-lg shadow-lg"
               >
                 View Our Services
               </Link>
               <Link
                 to="/contact"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition-all font-semibold text-lg"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary-600 transition-all font-semibold text-lg"
               >
                 Contact Us
               </Link>

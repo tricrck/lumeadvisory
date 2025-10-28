@@ -10,12 +10,12 @@ const Error404 = () => {
       />
 
       <main className="pt-20">
-        <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen flex items-center">
+        <section className="py-20 bg-gradient-to-br from-primary-50 to-indigo-50 min-h-screen flex items-center">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl mx-auto text-center">
               {/* 404 Illustration */}
               <div className="mb-8">
-                <h1 className="text-9xl font-bold text-blue-600 mb-4">404</h1>
+                <h1 className="text-9xl font-bold text-primary-600 mb-4">404</h1>
                 <div className="text-6xl">🔍</div>
               </div>
 
@@ -31,13 +31,13 @@ const Error404 = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                 <Link
                   to="/"
-                  className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg shadow-lg"
+                  className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg shadow-lg"
                 >
                   Go to Homepage
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-all font-semibold text-lg"
+                  className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
                 >
                   Contact Us
                 </Link>
@@ -51,9 +51,9 @@ const Error404 = () => {
                 <div className="grid sm:grid-cols-2 gap-4 text-left">
                   <Link
                     to="/services"
-                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-blue-50 transition-colors"
+                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-primary-50 transition-colors"
                   >
-                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-primary-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     <div>
@@ -64,9 +64,9 @@ const Error404 = () => {
 
                   <Link
                     to="/about"
-                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-blue-50 transition-colors"
+                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-primary-50 transition-colors"
                   >
-                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-primary-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     <div>
@@ -77,9 +77,9 @@ const Error404 = () => {
 
                   <Link
                     to="/case-studies"
-                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-blue-50 transition-colors"
+                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-primary-50 transition-colors"
                   >
-                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-primary-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     <div>
@@ -90,9 +90,9 @@ const Error404 = () => {
 
                   <Link
                     to="/resources"
-                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-blue-50 transition-colors"
+                    className="flex items-center space-x-3 p-4 rounded-lg hover:bg-primary-50 transition-colors"
                   >
-                    <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-primary-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     <div>

@@ -41,7 +41,7 @@ const ICTInvestmentAdvisory = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-20">
+        <section className="bg-gradient-to-br from-primary-50 to-indigo-50 py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -53,13 +53,13 @@ const ICTInvestmentAdvisory = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/contact"
-                  className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg"
+                  className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg"
                 >
                   Request Investment Analysis
                 </Link>
                 <Link
                   to="/case-studies"
-                  className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-all font-semibold text-lg"
+                  className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
                 >
                   View Success Stories
                 </Link>
@@ -78,7 +78,7 @@ const ICTInvestmentAdvisory = () => {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-gray-50 p-8 rounded-xl">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center mb-4">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
@@ -90,7 +90,7 @@ const ICTInvestmentAdvisory = () => {
                 </div>
 
                 <div className="bg-gray-50 p-8 rounded-xl">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center mb-4">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
@@ -102,7 +102,7 @@ const ICTInvestmentAdvisory = () => {
                 </div>
 
                 <div className="bg-gray-50 p-8 rounded-xl">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center mb-4">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
@@ -114,7 +114,7 @@ const ICTInvestmentAdvisory = () => {
                 </div>
 
                 <div className="bg-gray-50 p-8 rounded-xl">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center mb-4">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
@@ -163,7 +163,7 @@ const ICTInvestmentAdvisory = () => {
             </p>
             <Link
               to="/contact"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg"
+              className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg"
             >
               Talk to an Advisor
             </Link>

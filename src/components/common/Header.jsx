@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,19 +34,21 @@ const Header = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2" onClick={closeMobileMenu}>
-            <div className="text-2xl font-bold text-blue-600">
-              Lume Advisory
-            </div>
-          </Link>
+            <Link to="/" className="flex items-center space-x-2" onClick={closeMobileMenu}>
+            <img 
+                src={logo} 
+                alt="Lume Advisory" 
+                className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto"
+            />
+            </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             <NavLink 
               to="/" 
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -55,8 +58,8 @@ const Header = () => {
             <NavLink 
               to="/about" 
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -72,8 +75,8 @@ const Header = () => {
               <NavLink 
                 to="/services" 
                 className={({ isActive }) => 
-                  `text-gray-700 hover:text-blue-600 transition-colors font-medium flex items-center gap-1 ${
-                    isActive ? 'text-blue-600' : ''
+                  `text-gray-700 hover:text-primary-600 transition-colors font-medium flex items-center gap-1 ${
+                    isActive ? 'text-primary-600' : ''
                   }`
                 }
               >
@@ -91,7 +94,7 @@ const Header = () => {
                   <Link
                     key={service.path}
                     to={service.path}
-                    className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="block px-4 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
                   >
                     {service.name}
                   </Link>
@@ -102,8 +105,8 @@ const Header = () => {
             <NavLink 
               to="/case-studies" 
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -113,8 +116,8 @@ const Header = () => {
             <NavLink 
               to="/resources" 
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -123,7 +126,7 @@ const Header = () => {
 
             <Link 
               to="/contact" 
-              className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="bg-primary-600 text-white px-6 py-2.5 rounded-lg hover:bg-primary-700 transition-colors font-medium"
             >
               Contact Us
             </Link>
@@ -132,7 +135,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden text-gray-700 hover:text-blue-600 focus:outline-none"
+            className="lg:hidden text-gray-700 hover:text-primary-600 focus:outline-none"
             aria-label="Toggle menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -154,8 +157,8 @@ const Header = () => {
               to="/" 
               onClick={closeMobileMenu}
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -166,8 +169,8 @@ const Header = () => {
               to="/about" 
               onClick={closeMobileMenu}
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -177,7 +180,7 @@ const Header = () => {
             <div>
               <button
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
-                className="flex items-center justify-between w-full text-gray-700 hover:text-blue-600 font-medium"
+                className="flex items-center justify-between w-full text-gray-700 hover:text-primary-600 font-medium"
               >
                 Services
                 <svg 
@@ -197,7 +200,7 @@ const Header = () => {
                       key={service.path}
                       to={service.path}
                       onClick={closeMobileMenu}
-                      className="block text-gray-600 hover:text-blue-600 transition-colors py-1"
+                      className="block text-gray-600 hover:text-primary-600 transition-colors py-1"
                     >
                       {service.name}
                     </Link>
@@ -210,8 +213,8 @@ const Header = () => {
               to="/case-studies" 
               onClick={closeMobileMenu}
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -222,8 +225,8 @@ const Header = () => {
               to="/resources" 
               onClick={closeMobileMenu}
               className={({ isActive }) => 
-                `text-gray-700 hover:text-blue-600 transition-colors font-medium ${
-                  isActive ? 'text-blue-600' : ''
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -233,7 +236,7 @@ const Header = () => {
             <Link 
               to="/contact" 
               onClick={closeMobileMenu}
-              className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition-colors font-medium text-center"
+              className="bg-primary-600 text-white px-6 py-2.5 rounded-lg hover:bg-primary-700 transition-colors font-medium text-center"
             >
               Contact Us
             </Link>

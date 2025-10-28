@@ -119,7 +119,7 @@ const Home = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20 lg:py-28">
+        <section className="bg-gradient-to-br from-primary-50 via-white to-indigo-50 py-20 lg:py-28">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -131,13 +131,13 @@ const Home = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link
                   to="/contact"
-                  className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   Get Your Free ICT Audit
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-all font-semibold text-lg"
+                  className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
                 >
                   Talk to Our Experts
                 </Link>
@@ -166,18 +166,18 @@ const Home = () => {
                 <Link
                   key={index}
                   to={service.link}
-                  className="group p-8 rounded-xl border-2 border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 bg-white"
+                  className="group p-8 rounded-xl border-2 border-gray-100 hover:border-primary-500 hover:shadow-xl transition-all duration-300 bg-white"
                 >
-                  <div className="text-blue-600 mb-4 group-hover:scale-110 transition-transform">
+                  <div className="text-primary-600 mb-4 group-hover:scale-110 transition-transform">
                     {service.icon}
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 mb-4 leading-relaxed">
                     {service.description}
                   </p>
-                  <span className="text-blue-600 font-semibold inline-flex items-center group-hover:gap-2 transition-all">
+                  <span className="text-primary-600 font-semibold inline-flex items-center group-hover:gap-2 transition-all">
                     Learn More
                     <svg className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -201,7 +201,7 @@ const Home = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
               {valueProps.map((prop, index) => (
                 <div key={index} className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-100 text-primary-600 mb-4">
                     {prop.icon}
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">
@@ -231,14 +231,14 @@ const Home = () => {
             <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
               {['Assess', 'Strategy', 'Implementation', 'Optimize'].map((step, index) => (
                 <div key={index} className="text-center relative">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-600 text-white font-bold text-2xl mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-600 text-white font-bold text-2xl mb-4">
                     {index + 1}
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {step}
                   </h3>
                   {index < 3 && (
-                    <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-blue-200 -ml-4" style={{ width: 'calc(100% - 2rem)' }} />
+                    <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-primary-200 -ml-4" style={{ width: 'calc(100% - 2rem)' }} />
                   )}
                 </div>
               ))}
@@ -247,7 +247,7 @@ const Home = () => {
             <div className="text-center mt-12">
               <Link
                 to="/about"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold text-lg"
+                className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold text-lg"
               >
                 Discover Our Approach
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -259,29 +259,29 @@ const Home = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+        <section className="py-20 bg-gradient-to-r from-primary-600 to-indigo-700 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
               Ready to Unlock Digital Value?
             </h2>
-            <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+            <p className="text-xl mb-8 text-primary-100 max-w-2xl mx-auto">
               Schedule a no-obligation consultation with our ICT experts
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all font-semibold text-lg shadow-lg"
+                className="bg-white text-primary-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all font-semibold text-lg shadow-lg"
               >
                 Book a Meeting
               </Link>
               <Link
                 to="/contact"
-                className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition-all font-semibold text-lg"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary-600 transition-all font-semibold text-lg"
               >
                 Send Us a Message
               </Link>
             </div>
-            <p className="text-sm mt-6 text-blue-100">
+            <p className="text-sm mt-6 text-primary-100">
               Average response time: 24 hours
             </p>
           </div>

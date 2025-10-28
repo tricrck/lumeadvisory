@@ -136,7 +136,7 @@ const Services = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-20">
+        <section className="bg-gradient-to-br from-primary-50 to-indigo-50 py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -159,7 +159,7 @@ const Services = () => {
                   className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}
                 >
                   <div className="flex-1">
-                    <div className="text-blue-600 mb-6">
+                    <div className="text-primary-600 mb-6">
                       {service.icon}
                     </div>
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -171,7 +171,7 @@ const Services = () => {
                     <ul className="space-y-3 mb-8">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start">
-                          <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700">{feature}</span>
@@ -180,7 +180,7 @@ const Services = () => {
                     </ul>
                     <Link
                       to={service.link}
-                      className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all font-semibold"
+                      className="inline-flex items-center bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-all font-semibold"
                     >
                       Learn More
                       <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -189,8 +189,8 @@ const Services = () => {
                     </Link>
                   </div>
                   <div className="flex-1">
-                    <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl p-8 h-80 flex items-center justify-center">
-                      <div className="text-blue-600 opacity-20">
+                    <div className="bg-gradient-to-br from-primary-100 to-indigo-100 rounded-2xl p-8 h-80 flex items-center justify-center">
+                      <div className="text-primary-600 opacity-20">
                         {service.icon}
                       </div>
                     </div>
@@ -217,7 +217,7 @@ const Services = () => {
               {process.map((item, index) => (
                 <div key={index} className="relative">
                   <div className="bg-white p-6 rounded-xl shadow-sm h-full">
-                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">
+                    <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">
                       {item.step}
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -228,7 +228,7 @@ const Services = () => {
                     </p>
                   </div>
                   {index < process.length - 1 && (
-                    <div className="hidden md:block absolute top-6 left-full w-full h-0.5 bg-blue-200" style={{ width: 'calc(100% - 3rem)', marginLeft: '1.5rem' }} />
+                    <div className="hidden md:block absolute top-6 left-full w-full h-0.5 bg-primary-200" style={{ width: 'calc(100% - 3rem)', marginLeft: '1.5rem' }} />
                   )}
                 </div>
               ))}
@@ -250,7 +250,7 @@ const Services = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
               {industries.map((industry, index) => (
-                <div key={index} className="bg-gray-50 p-6 rounded-lg text-center hover:bg-blue-50 hover:shadow-md transition-all">
+                <div key={index} className="bg-gray-50 p-6 rounded-lg text-center hover:bg-primary-50 hover:shadow-md transition-all">
                   <p className="font-semibold text-gray-900">{industry}</p>
                 </div>
               ))}
@@ -259,7 +259,7 @@ const Services = () => {
         </section>
 
         {/* Success Metrics */}
-        <section className="py-20 bg-blue-600 text-white">
+        <section className="py-20 bg-primary-600 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">
@@ -270,19 +270,19 @@ const Services = () => {
             <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
               <div>
                 <div className="text-5xl font-bold mb-2">50+</div>
-                <p className="text-blue-100">Projects Delivered</p>
+                <p className="text-primary-100">Projects Delivered</p>
               </div>
               <div>
                 <div className="text-5xl font-bold mb-2">95%</div>
-                <p className="text-blue-100">Client Satisfaction</p>
+                <p className="text-primary-100">Client Satisfaction</p>
               </div>
               <div>
                 <div className="text-5xl font-bold mb-2">4</div>
-                <p className="text-blue-100">Countries Served</p>
+                <p className="text-primary-100">Countries Served</p>
               </div>
               <div>
                 <div className="text-5xl font-bold mb-2">15+</div>
-                <p className="text-blue-100">Years Experience</p>
+                <p className="text-primary-100">Years Experience</p>
               </div>
             </div>
           </div>
@@ -300,13 +300,13 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg shadow-lg"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg shadow-lg"
               >
                 Schedule Consultation
               </Link>
               <Link
                 to="/case-studies"
-                className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-all font-semibold text-lg"
+                className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
               >
                 View Case Studies
               </Link>

@@ -92,7 +92,7 @@ const BlogPost = () => {
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <header className="mb-8">
             <div className="flex items-center gap-2 mb-4">
-              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded">
+              <span className="bg-primary-100 text-primary-800 text-sm px-3 py-1 rounded">
                 {article.category}
               </span>
               <span className="text-gray-500 text-sm">{article.readTime}</span>
@@ -137,10 +137,10 @@ const BlogPost = () => {
                   to={`/resources/${related.slug}`}
                   className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-all"
                 >
-                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-3">
+                  <span className="bg-primary-100 text-primary-800 text-xs px-2 py-1 rounded mr-3">
                     {related.category}
                   </span>
-                  <span className="text-gray-900 hover:text-blue-600 font-medium">
+                  <span className="text-gray-900 hover:text-primary-600 font-medium">
                     {related.title}
                   </span>
                 </Link>
@@ -161,13 +161,13 @@ const BlogPost = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/services/ict-investment-advisory"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg"
               >
                 Explore Advisory Services
               </Link>
               <Link
                 to="/contact"
-                className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-all font-semibold text-lg"
+                className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
               >
                 Schedule Consultation
               </Link>

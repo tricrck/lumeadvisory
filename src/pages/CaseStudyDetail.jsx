@@ -53,11 +53,11 @@ const CaseStudyDetail = () => {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-20">
+        <section className="bg-gradient-to-br from-primary-50 to-indigo-50 py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center gap-2 mb-4">
-                <span className="bg-blue-600 text-white text-sm px-3 py-1 rounded">
+                <span className="bg-primary-600 text-white text-sm px-3 py-1 rounded">
                   {caseStudy.service}
                 </span>
                 <span className="bg-gray-600 text-white text-sm px-3 py-1 rounded">
@@ -79,19 +79,19 @@ const CaseStudyDetail = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-1">40%</div>
+                <div className="text-2xl font-bold text-primary-600 mb-1">40%</div>
                 <p className="text-sm text-gray-600">Cost Reduction</p>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-1">25%</div>
+                <div className="text-2xl font-bold text-primary-600 mb-1">25%</div>
                 <p className="text-sm text-gray-600">Satisfaction Increase</p>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-1">12</div>
+                <div className="text-2xl font-bold text-primary-600 mb-1">12</div>
                 <p className="text-sm text-gray-600">Months</p>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-1">8</div>
+                <div className="text-2xl font-bold text-primary-600 mb-1">8</div>
                 <p className="text-sm text-gray-600">Team Members</p>
               </div>
             </div>
@@ -163,13 +163,13 @@ const CaseStudyDetail = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/services/ict-project-consulting"
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all font-semibold"
+                  className="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-all font-semibold"
                 >
                   ICT Project Consulting
                 </Link>
                 <Link
                   to="/services/ai-strategy-implementation"
-                  className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-all font-semibold"
+                  className="border-2 border-primary-600 text-primary-600 px-6 py-3 rounded-lg hover:bg-primary-50 transition-all font-semibold"
                 >
                   AI Strategy & Implementation
                 </Link>
@@ -190,13 +190,13 @@ const CaseStudyDetail = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all font-semibold text-lg"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg"
               >
                 Schedule Consultation
               </Link>
               <Link
                 to="/case-studies"
-                className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-all font-semibold text-lg"
+                className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
               >
                 View More Case Studies
               </Link>
