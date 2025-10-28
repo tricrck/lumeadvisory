@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://www.lumeadvisory.ai' || 'http://localhost:3000',
+      hostname: 'https://www.lumeadvisory.ai' || 'http://localhost:3000' || 'https://lumeadvisory.onrender.com',
       dynamicRoutes: [
         '/',
         '/about',
