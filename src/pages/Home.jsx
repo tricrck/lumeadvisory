@@ -259,7 +259,7 @@ const Home = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-primary-600 to-indigo-700 text-white">
+        <section className="py-20 bg-gradient-to-r from-primary-600 to-primary-900 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
               Ready to Unlock Digital Value?

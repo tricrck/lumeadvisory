@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -23,7 +24,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-gradient-to-r from-primary-900 to-emerald-700 text-gray-200">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -131,25 +132,6 @@ const Footer = () => {
                 <span className="text-sm">Mon - Fri: 9:00 AM - 5:00 PM EAT</span>
               </li>
             </ul>
-
-            {/* Newsletter Signup */}
-            <div className="mt-6">
-              <h4 className="text-white font-medium mb-2">Stay Updated</h4>
-              <form className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-3 py-2 rounded bg-gray-800 border border-gray-700 text-sm focus:outline-none focus:border-primary-500"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="bg-primary-600 text-white px-4 py-2 rounded hover:bg-primary-700 transition-colors text-sm font-medium"
-                >
-                  Subscribe
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </div>
@@ -158,7 +140,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-200">
               &copy; {currentYear} Lume Advisory. All rights reserved.
             </p>
             <div className="flex space-x-6">
@@ -166,7 +148,7 @@ const Footer = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className="text-sm text-gray-400 hover:text-white transition-colors"
+                  className="text-sm text-gray-200 hover:text-white transition-colors"
                 >
                   {item.name}
                 </Link>

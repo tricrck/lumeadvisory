@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SEO from '../components/common/SEO';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -34,15 +35,12 @@ const Contact = () => {
 
     // Simulate form submission (replace with actual API call)
     try {
-      // Example: Using Netlify Forms
-      // const response = await fetch('/', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      //   body: new URLSearchParams(formData).toString()
-      // });
-
-      // Simulate delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await emailjs.sendForm(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          e.target,
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        );
 
       // Track conversion event
       if (window.gtag) {
