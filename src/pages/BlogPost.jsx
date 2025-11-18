@@ -7,13 +7,13 @@ const BlogPost = () => {
   // Mock data - in real app, this would come from CMS or API
   const article = {
     id: 1,
-    title: "How to Evaluate ICT Investment Opportunities in East Africa",
-    excerpt: "A comprehensive guide to identifying and assessing high-value technology investment opportunities in the Eastern African market.",
+    title: "How to Evaluate ICT Investment Opportunities",
+    excerpt: "A comprehensive guide to identifying and assessing high-value technology investment opportunities in the market.",
     content: `
-      <p>The Eastern African technology landscape is rapidly evolving, presenting numerous investment opportunities for forward-thinking organizations. However, navigating this dynamic market requires careful evaluation and strategic planning.</p>
+      <p>Technology landscape is rapidly evolving, presenting numerous investment opportunities for forward-thinking organizations. However, navigating this dynamic market requires careful evaluation and strategic planning.</p>
       
       <h2>Understanding the Market Dynamics</h2>
-      <p>Eastern Africa's ICT sector has experienced significant growth in recent years, driven by increasing mobile penetration, improving infrastructure, and growing digital literacy. Countries like Kenya, Uganda, Tanzania, and Rwanda have implemented progressive ICT policies that encourage investment and innovation.</p>
+      <p>ICT sector has experienced significant growth in recent years, driven by increasing mobile penetration, improving infrastructure, and growing digital literacy. Countries like Kenya, Uganda, Tanzania, and Rwanda have implemented progressive ICT policies that encourage investment and innovation.</p>
       
       <h2>Key Evaluation Criteria</h2>
       <p>When assessing ICT investment opportunities in this region, consider the following factors:</p>
@@ -37,14 +37,14 @@ const BlogPost = () => {
       </ol>
       
       <h2>Conclusion</h2>
-      <p>Successful ICT investment in Eastern Africa requires a balanced approach that considers market opportunities, regulatory requirements, and implementation challenges. By following a structured evaluation process, organizations can identify high-potential opportunities and make informed investment decisions.</p>
+      <p>Successful ICT investment requires a balanced approach that considers market opportunities, regulatory requirements, and implementation challenges. By following a structured evaluation process, organizations can identify high-potential opportunities and make informed investment decisions.</p>
     `,
     category: "ICT Investment",
     readTime: "8 min read",
     author: {
       name: "John Doe",
       role: "Senior ICT Advisor",
-      bio: "John has over 10 years of experience in ICT investment advisory across Eastern Africa."
+      bio: "John has over 10 years of experience in ICT investment advisory."
     },
     date: "January 15, 2024",
     relatedArticles: [
@@ -83,7 +83,7 @@ const BlogPost = () => {
       <SEO
         title={article.title}
         description={article.excerpt}
-        keywords="ICT investment Kenya, technology opportunities East Africa, ICT market analysis"
+        keywords="ICT investment Kenya, technology opportunities, ICT market analysis"
         structuredData={structuredData}
       />
 
@@ -156,7 +156,7 @@ const BlogPost = () => {
               Need Expert ICT Investment Guidance?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Our team can help you evaluate opportunities and make informed investment decisions in Eastern Africa.
+              Our team can help you evaluate opportunities and make informed investment decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

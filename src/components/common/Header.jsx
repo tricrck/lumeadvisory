@@ -16,8 +16,8 @@ const Header = () => {
   }, []);
 
   const services = [
-    { name: 'ICT Investment Advisory', path: '/services/ict-investment-advisory' },
     { name: 'AI Strategy & Implementation', path: '/services/ai-strategy-implementation' },
+    { name: 'ICT Investment Advisory', path: '/services/ict-investment-advisory' },
     { name: 'Cloud Services', path: '/services/cloud-services' },
     { name: 'ICT Project Consulting', path: '/services/ict-project-consulting' }
   ];
@@ -63,7 +63,18 @@ const Header = () => {
                 }`
               }
             >
-              About
+              About Us
+            </NavLink>
+
+            <NavLink
+              to="/teams"
+              className={({ isActive }) => 
+                `text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                  isActive ? 'text-primary-600' : ''
+                }`
+              }
+            >
+              Teams
             </NavLink>
 
             {/* Services Dropdown */}

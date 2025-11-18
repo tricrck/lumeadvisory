@@ -5,20 +5,20 @@ const Resources = () => {
   const featuredArticles = [
     {
       id: 1,
-      title: "How to Evaluate ICT Investment Opportunities in East Africa",
-      excerpt: "A comprehensive guide to identifying and assessing high-value technology investment opportunities in the Eastern African market.",
+      title: "How to Evaluate ICT Investment Opportunities",
+      excerpt: "A comprehensive guide to identifying and assessing high-value technology investment opportunities in the market.",
       category: "ICT Investment",
       readTime: "8 min read",
-      slug: "evaluate-ict-investment-opportunities-east-africa",
+      slug: "evaluate-ict-investment-opportunities",
       date: "2024-01-15"
     },
     {
       id: 2,
-      title: "AI Strategy Framework for African Enterprises",
-      excerpt: "Learn how to develop a practical AI strategy that delivers measurable business value in the African context.",
+      title: "AI Strategy Framework for Enterprises",
+      excerpt: "Learn how to develop a practical AI strategy that delivers measurable business value.",
       category: "AI Strategy",
       readTime: "10 min read",
-      slug: "ai-strategy-framework-african-enterprises",
+      slug: "ai-strategy-framework-enterprises",
       date: "2024-01-10"
     },
     {
@@ -36,14 +36,14 @@ const Resources = () => {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "ICT Insights & Resources - Lume Advisory Blog",
-    "description": "Expert insights on ICT investment, AI strategy, cloud migration, and digital transformation in Eastern Africa."
+    "description": "Expert insights on ICT investment, AI strategy, cloud migration, and digital transformation."
   };
 
   return (
     <>
       <SEO
         title="ICT Insights & Resources - Lume Advisory Blog"
-        description="Expert insights on ICT investment, AI strategy, cloud migration, and digital transformation in Eastern Africa."
+        description="Expert insights on ICT investment, AI strategy, cloud migration, and digital transformation."
         keywords="ICT insights Kenya, digital transformation guides, technology resources"
         structuredData={structuredData}
       />
@@ -57,7 +57,7 @@ const Resources = () => {
                 Stay Ahead: ICT Insights and Resources
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Expert insights on ICT investment, AI strategy, cloud migration, and digital transformation in Eastern Africa.
+                Expert insights on ICT investment, AI strategy, cloud migration, and digital transformation.
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ const Resources = () => {
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-3">Blog Articles</h3>
                     <p className="text-gray-600">
-                      In-depth insights on ICT trends, strategies, and best practices for Eastern Africa.
+                      In-depth insights on ICT trends, strategies, and best practices.
                     </p>
                   </div>
                 </div>

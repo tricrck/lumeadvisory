@@ -6,7 +6,7 @@ const CloudServices = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Cloud Services",
-    "description": "Avoid costly mistakes. Expert cloud strategy, migration planning, and managed services for African enterprises.",
+    "description": "Avoid costly mistakes. Expert cloud strategy, migration planning, and managed services for enterprises.",
     "provider": {
       "@type": "Organization",
       "name": "Lume Advisory"
@@ -35,8 +35,8 @@ const CloudServices = () => {
     <>
       <SEO
         title="Cloud Migration & Managed Services in Kenya"
-        description="Avoid costly mistakes. Expert cloud strategy, migration planning, and managed services for African enterprises."
-        keywords="cloud migration Kenya, cloud strategy consulting, managed cloud services Africa, AWS migration Kenya"
+        description="Avoid costly mistakes. Expert cloud strategy, migration planning, and managed services for enterprises."
+        keywords="cloud migration Kenya, cloud strategy consulting, managed cloud services, AWS migration Kenya"
         structuredData={structuredData}
       />
 

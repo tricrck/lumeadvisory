@@ -63,7 +63,7 @@ const Contact = () => {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact Lume Advisory",
-    "description": "Contact Lume Advisory for ICT consulting services in Eastern Africa"
+    "description": "Contact Lume Advisory for ICT consulting services"
   };
 
   return (
@@ -353,15 +353,6 @@ const Contact = () => {
                   </h3>
                   <p className="text-gray-600">
                     Yes, our initial consultation is completely free with no obligation. We use this time to understand your needs and determine how we can help.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    Do you work with companies outside Eastern Africa?
-                  </h3>
-                  <p className="text-gray-600">
-                    Our expertise is focused on Kenya, Uganda, Tanzania, and Rwanda. However, we can support organizations outside the region that are planning ICT investments or operations in Eastern Africa.
                   </p>
                 </div>
 

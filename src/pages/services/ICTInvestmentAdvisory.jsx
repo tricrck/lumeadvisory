@@ -6,19 +6,19 @@ const ICTInvestmentAdvisory = () => {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "ICT Investment Advisory",
-    "description": "Navigate ICT investments with confidence. Feasibility studies, regulatory guidance, and sustainability planning for Eastern Africa.",
+    "description": "Navigate ICT investments with confidence. Feasibility studies, regulatory guidance, and sustainability planning.",
     "provider": {
       "@type": "Organization",
       "name": "Lume Advisory"
     },
-    "areaServed": "Eastern Africa",
+    "areaServed": "Kenya",
     "serviceType": "ICT Consulting"
   };
 
   const faqs = [
     {
       question: "What is ICT investment advisory and why do I need it?",
-      answer: "ICT investment advisory helps organizations evaluate, plan, and execute technology investments strategically. We provide market analysis, feasibility studies, regulatory guidance, and sustainability planning to ensure your ICT investments deliver maximum value and comply with Eastern African regulations."
+      answer: "ICT investment advisory helps organizations evaluate, plan, and execute technology investments strategically. We provide market analysis, feasibility studies, regulatory guidance, and sustainability planning to ensure your ICT investments deliver maximum value and comply with regulations."
     },
     {
       question: "How long does an ICT investment feasibility study take?",
@@ -33,9 +33,9 @@ const ICTInvestmentAdvisory = () => {
   return (
     <>
       <SEO
-        title="ICT Investment Advisory Services in East Africa"
-        description="Navigate ICT investments with confidence. Feasibility studies, regulatory guidance, and sustainability planning for Eastern Africa."
-        keywords="ICT investment advisory Kenya, technology investment consulting Africa, ICT feasibility studies, regulatory compliance ICT Kenya"
+        title="ICT Investment Advisory Services"
+        description="Navigate ICT investments with confidence. Feasibility studies, regulatory guidance, and sustainability planning."
+        keywords="ICT investment advisory Kenya, technology investment consulting, ICT feasibility studies, regulatory compliance ICT Kenya"
         structuredData={structuredData}
       />
 
@@ -45,10 +45,10 @@ const ICTInvestmentAdvisory = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-                Expert ICT Investment Advisory for Eastern Africa
+                Expert ICT Investment Advisory
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                Strategic guidance for technology investments in Eastern Africa. We help you identify high-value opportunities, conduct feasibility studies, navigate regulatory frameworks, and ensure long-term sustainability.
+                Strategic guidance for technology investments. We help you identify high-value opportunities, conduct feasibility studies, navigate regulatory frameworks, and ensure long-term sustainability.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
@@ -85,7 +85,7 @@ const ICTInvestmentAdvisory = () => {
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Opportunity Identification</h3>
                   <p className="text-gray-600">
-                    Identify high-value ICT opportunities through comprehensive market analysis and trend assessment in Eastern Africa.
+                    Identify high-value ICT opportunities through comprehensive market analysis and trend assessment.
                   </p>
                 </div>
 
@@ -109,7 +109,7 @@ const ICTInvestmentAdvisory = () => {
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Regulatory Guidance</h3>
                   <p className="text-gray-600">
-                    Navigate complex regulatory frameworks across Kenya, Uganda, Tanzania, and Rwanda with expert compliance guidance.
+                    Navigate complex regulatory frameworks across countries with expert compliance guidance.
                   </p>
                 </div>
 
@@ -159,7 +159,7 @@ const ICTInvestmentAdvisory = () => {
               Ready to Make Strategic ICT Investments?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Contact our investment advisory team to discuss your technology investment opportunities in Eastern Africa.
+              Contact our investment advisory team to discuss your technology investment opportunities.
             </p>
             <Link
               to="/contact"

@@ -35,7 +35,7 @@ const Footer = () => {
               Lume Advisory
             </div>
             <p className="text-sm leading-relaxed">
-              Enabling Digital Value Across Eastern Africa. Expert ICT advisory, AI strategy, and cloud services for forward-thinking enterprises.
+              Enabling Digital Value Through Custom Solutions. Expert ICT advisory, AI strategy, and cloud services for forward-thinking enterprises.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -142,6 +142,17 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-200">
               &copy; {currentYear} Lume Advisory. All rights reserved.
+            </p>
+            <p className="text-gray-500">
+              Powered by{" "}
+              <a
+                href="https://nerdwaretechnologies.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-400 hover:text-primary-300 transition font-medium"
+              >
+                Nerdware Systems Limited
+              </a>
             </p>
             <div className="flex space-x-6">
               {legal.map((item) => (

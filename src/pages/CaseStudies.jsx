@@ -39,14 +39,14 @@ const CaseStudies = () => {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Client Success Stories - ICT Advisory Results",
-    "description": "Real results from Eastern African enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value."
+    "description": "Real results enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value."
   };
 
   return (
     <>
       <SEO
         title="Client Success Stories - ICT Advisory Results"
-        description="Real results from Eastern African enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value."
+        description="Real results from enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value."
         keywords="ICT consulting success stories Kenya, digital transformation case studies"
         structuredData={structuredData}
       />
@@ -60,7 +60,7 @@ const CaseStudies = () => {
                 Proven Results: Our Client Success Stories
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Real results from Eastern African enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value.
+                Real results from enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value.
               </p>
             </div>
           </div>

@@ -18,6 +18,7 @@ import ThankYou from './pages/ThankYou';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import Error404 from './pages/Error404';
+import Team from './pages/Team';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/teams" element={<Team />} />
         <Route path="/services/ict-investment-advisory" element={<ICTInvestmentAdvisory />} />
         <Route path="/services/ai-strategy-implementation" element={<AIStrategy />} />
         <Route path="/services/cloud-services" element={<CloudServices />} />

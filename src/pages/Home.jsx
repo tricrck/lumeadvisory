@@ -6,22 +6,22 @@ const Home = () => {
     {
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-        </svg>
-      ),
-      title: 'ICT Investment Advisory',
-      description: 'Navigate the ICT landscape with confidence. We provide feasibility studies, regulatory guidance, and sustainability planning for Eastern Africa.',
-      link: '/services/ict-investment-advisory'
-    },
-    {
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
         </svg>
       ),
       title: 'AI Strategy & Implementation',
-      description: 'Turn AI noise into business value. Maturity assessment, roadmap development, governance frameworks, and workforce enablement.',
+      description: 'Transform AI from buzzword to business value. Comprehensive readiness assessment, strategy development, and implementation advisory.',
       link: '/services/ai-strategy-implementation'
+    },
+    {
+      icon: (
+        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+        </svg>
+      ),
+      title: 'ICT Investment Advisory',
+      description: 'Navigate complex ICT landscapes with confidence. We provide feasibility studies, regulatory guidance, and sustainability planning tailored to your market.',
+      link: '/services/ict-investment-advisory'
     },
     {
       icon: (
@@ -30,7 +30,7 @@ const Home = () => {
         </svg>
       ),
       title: 'Cloud Services',
-      description: 'Avoid costly mistakes. Expert cloud strategy, migration planning, and managed services to accelerate your cloud journey.',
+      description: 'Accelerate your cloud journey without costly mistakes. Expert strategy, migration planning, and managed services for scalable growth.',
       link: '/services/cloud-services'
     },
     {
@@ -40,7 +40,7 @@ const Home = () => {
         </svg>
       ),
       title: 'ICT Project Consulting',
-      description: 'Ensure your tech projects deliver business value. End-to-end consulting from strategic alignment to continuous improvement.',
+      description: 'Ensure technology projects deliver measurable business value. End-to-end consulting from strategic alignment to continuous improvement.',
       link: '/services/ict-project-consulting'
     }
   ];
@@ -49,11 +49,11 @@ const Home = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
         </svg>
       ),
-      title: 'Market Expertise',
-      description: 'Deep understanding of Eastern Africa\'s ICT landscape and regulatory environment'
+      title: 'Deep Expertise',
+      description: 'Decades of combined experience in ICT strategy, AI implementation, and digital transformation'
     },
     {
       icon: (
@@ -62,7 +62,7 @@ const Home = () => {
         </svg>
       ),
       title: 'Results-Driven',
-      description: 'Focus on measurable business value, not just technology implementation'
+      description: 'Focus on measurable business outcomes, not just technology implementation'
     },
     {
       icon: (
@@ -71,7 +71,7 @@ const Home = () => {
         </svg>
       ),
       title: 'Agile & Adaptive',
-      description: 'Flexible engagement models that scale with your evolving needs'
+      description: 'Flexible engagement models that scale with your evolving business needs'
     },
     {
       icon: (
@@ -80,7 +80,7 @@ const Home = () => {
         </svg>
       ),
       title: 'End-to-End Support',
-      description: 'From strategy to implementation to continuous improvement'
+      description: 'Comprehensive guidance from strategy through implementation to continuous improvement'
     }
   ];
 
@@ -90,7 +90,7 @@ const Home = () => {
     "name": "Lume Advisory",
     "url": "https://www.lumeadvisory.ai",
     "logo": "https://www.lumeadvisory.ai/images/logo.png",
-    "description": "Expert ICT investment advisory, AI strategy, cloud migration, and digital transformation consulting for Eastern Africa",
+    "description": "Expert ICT investment advisory, AI strategy, cloud migration, and digital transformation consulting for forward-thinking enterprises globally",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Nairobi",
@@ -111,9 +111,9 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="ICT Advisory & AI Strategy Experts in Kenya | Lume Advisory"
-        description="Lume Advisory delivers ICT investment guidance, AI strategy, cloud migration, and digital transformation consulting across Eastern Africa."
-        keywords="ICT advisory Kenya, digital transformation consulting Africa, AI strategy Kenya, cloud migration Kenya"
+        title="ICT Advisory & AI Strategy Experts | Lume Advisory"
+        description="Lume Advisory delivers ICT investment guidance, AI strategy, cloud migration, and digital transformation consulting for forward-thinking enterprises worldwide."
+        keywords="ICT advisory, digital transformation consulting, AI strategy, cloud migration, technology consulting"
         structuredData={structuredData}
       />
 
@@ -123,27 +123,21 @@ const Home = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Enabling Digital Value Across Eastern Africa
+                Enabling Digital Value Through Custom Solutions
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Expert ICT investment advisory, AI strategy, cloud migration, and digital transformation consulting for forward-thinking enterprises.
+                Expert ICT investment advisory, AI strategy, cloud migration, and digital transformation consulting for forward-thinking enterprises ready to unlock measurable business value.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link
                   to="/contact"
-                  className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
-                  Get Your Free ICT Audit
-                </Link>
-                <Link
-                  to="/contact"
-                  className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
-                >
-                  Talk to Our Experts
+                  Get AI Readiness Assessment
                 </Link>
               </div>
               <p className="text-sm text-gray-500">
-                Trusted by leading organizations across Kenya, Uganda, Tanzania, and Rwanda
+                Trusted by organizations across multiple industries and markets
               </p>
             </div>
           </div>
@@ -154,7 +148,7 @@ const Home = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Comprehensive ICT Solutions for Modern Challenges
+                How We Can Help in ICT Solutions for Modern Challenges
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 From strategic planning to implementation, we deliver end-to-end ICT expertise
@@ -190,7 +184,7 @@ const Home = () => {
         </section>
 
         {/* Value Propositions */}
-        <section className="py-20 bg-gray-50">
+        {/* <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -214,7 +208,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Process Teaser */}
         <section className="py-20 bg-white">

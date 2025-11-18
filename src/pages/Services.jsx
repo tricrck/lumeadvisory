@@ -5,24 +5,15 @@ const Services = () => {
   const services = [
     {
       icon: (
-        <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-        </svg>
-      ),
-      title: 'ICT Investment Advisory',
-      description: 'Strategic guidance for technology investments in Eastern Africa. We help you identify high-value opportunities, conduct feasibility studies, navigate regulatory frameworks, and ensure long-term sustainability.',
-      features: [
-        'Opportunity identification and market analysis',
-        'Comprehensive feasibility studies',
-        'Regulatory compliance guidance',
-        'Investment sustainability planning'
-      ],
-      link: '/services/ict-investment-advisory'
-    },
-    {
-      icon: (
-        <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        <svg className="w-16 h-16" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>ai</title>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="icon" fill="#000000" transform="translate(64.000000, 64.000000)">
+                    <path d="M320,64 L320,320 L64,320 L64,64 L320,64 Z M171.749388,128 L146.817842,128 L99.4840387,256 L121.976629,256 L130.913039,230.977 L187.575039,230.977 L196.319607,256 L220.167172,256 L171.749388,128 Z M260.093778,128 L237.691519,128 L237.691519,256 L260.093778,256 L260.093778,128 Z M159.094727,149.47526 L181.409039,213.333 L137.135039,213.333 L159.094727,149.47526 Z M341.333333,256 L384,256 L384,298.666667 L341.333333,298.666667 L341.333333,256 Z M85.3333333,341.333333 L128,341.333333 L128,384 L85.3333333,384 L85.3333333,341.333333 Z M170.666667,341.333333 L213.333333,341.333333 L213.333333,384 L170.666667,384 L170.666667,341.333333 Z M85.3333333,0 L128,0 L128,42.6666667 L85.3333333,42.6666667 L85.3333333,0 Z M256,341.333333 L298.666667,341.333333 L298.666667,384 L256,384 L256,341.333333 Z M170.666667,0 L213.333333,0 L213.333333,42.6666667 L170.666667,42.6666667 L170.666667,0 Z M256,0 L298.666667,0 L298.666667,42.6666667 L256,42.6666667 L256,0 Z M341.333333,170.666667 L384,170.666667 L384,213.333333 L341.333333,213.333333 L341.333333,170.666667 Z M0,256 L42.6666667,256 L42.6666667,298.666667 L0,298.666667 L0,256 Z M341.333333,85.3333333 L384,85.3333333 L384,128 L341.333333,128 L341.333333,85.3333333 Z M0,170.666667 L42.6666667,170.666667 L42.6666667,213.333333 L0,213.333333 L0,170.666667 Z M0,85.3333333 L42.6666667,85.3333333 L42.6666667,128 L0,128 L0,85.3333333 Z" id="Combined-Shape">
+
+        </path>
+                </g>
+            </g>
         </svg>
       ),
       title: 'AI Strategy & Implementation',
@@ -35,6 +26,23 @@ const Services = () => {
         'Workforce enablement and training'
       ],
       link: '/services/ai-strategy-implementation'
+    },
+    {
+      
+      icon: (
+        <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+        </svg>
+      ),
+      title: 'ICT Investment Advisory',
+      description: 'Strategic guidance for technology investments. We help you identify high-value opportunities, conduct feasibility studies, navigate regulatory frameworks, and ensure long-term sustainability.',
+      features: [
+        'Opportunity identification and market analysis',
+        'Comprehensive feasibility studies',
+        'Regulatory compliance guidance',
+        'Investment sustainability planning'
+      ],
+      link: '/services/ict-investment-advisory'
     },
     {
       icon: (
@@ -129,8 +137,8 @@ const Services = () => {
     <>
       <SEO
         title="ICT Consulting Services - Advisory, AI & Cloud"
-        description="Comprehensive ICT services: investment advisory, AI strategy, cloud migration, and project consulting for Eastern African enterprises."
-        keywords="ICT consulting services Kenya, digital transformation services, AI consulting, cloud services Africa"
+        description="Comprehensive ICT services: investment advisory, AI strategy, cloud migration, and project consulting for enterprises."
+        keywords="ICT consulting services Kenya, digital transformation services, AI consulting, cloud services"
         structuredData={structuredData}
       />
 
@@ -244,7 +252,7 @@ const Services = () => {
                 Industries We Serve
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Deep expertise across diverse sectors in Eastern Africa
+                Deep expertise across diverse sectors to deliver tailored ICT solutions
               </p>
             </div>
 

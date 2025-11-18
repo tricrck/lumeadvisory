@@ -5,7 +5,7 @@
 ![Vite](https://img.shields.io/badge/Vite-5.0.0-646cff)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.0-38b2ac)
 
-A modern, responsive website for Lume Advisory - a Kenyan ICT consulting firm specializing in digital transformation, AI strategy, and cloud services across Eastern Africa.
+A modern, responsive website for Lume Advisory - a Kenyan ICT consulting firm specializing in digital transformation, AI strategy, and cloud services.
 
 ## 🚀 Features
 
