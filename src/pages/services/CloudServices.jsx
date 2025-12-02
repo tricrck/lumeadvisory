@@ -52,12 +52,12 @@ const CloudServices = () => {
                 We accelerate the cloud journey for organizations and make it less painful while offering managed services to enable you focus on your core business.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
+                {/* <Link
                   to="/contact"
                   className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-all font-semibold text-lg"
                 >
                   Get Cloud Readiness Assessment
-                </Link>
+                </Link> */}
                 <Link
                   to="/case-studies"
                   className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg hover:bg-green-50 transition-all font-semibold text-lg"

@@ -53,12 +53,12 @@ const ICTProjectConsulting = () => {
                 We support organizations to ensure tech solutions deliver intended business value through comprehensive project consulting and management.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
+                {/* <Link
                   to="/contact"
                   className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition-all font-semibold text-lg"
                 >
                   Start Your Project Assessment
-                </Link>
+                </Link> */}
                 <Link
                   to="/case-studies"
                   className="border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-lg hover:bg-orange-50 transition-all font-semibold text-lg"

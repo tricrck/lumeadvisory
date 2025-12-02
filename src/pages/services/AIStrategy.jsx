@@ -30,7 +30,7 @@ const AIStrategy = () => {
         </svg>
       ),
       title: "AI Strategy Development",
-      description: "We work with your leadership team to define where AI creates the greatest impact—whether in operations, customer engagement, finance, sales, or product innovation—to turn your ambition into a practical AI roadmap."
+      description: "We work with your leadership team to define where AI creates the greatest impact whether in operations, customer engagement, finance, sales, or product innovation to turn your ambition into a practical AI roadmap."
     },
     {
       icon: (
@@ -107,12 +107,12 @@ const AIStrategy = () => {
                 In today's world, AI is no longer optional, it's the new engine of growth. We help you transform AI from a buzzword into measurable business value through strategic guidance and expert implementation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
+                {/* <Link
                   to="/contact"
                   className="bg-purple-600 text-white px-8 py-4 rounded-lg hover:bg-purple-700 transition-all font-semibold text-lg shadow-lg"
                 >
                   Get AI Readiness Assessment
-                </Link>
+                </Link> */}
                 <Link
                   to="/resources"
                   className="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-lg hover:bg-purple-50 transition-all font-semibold text-lg"

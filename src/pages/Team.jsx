@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/common/SEO';
+import placeholder from '../assets/placeholder.jpg';
 
 const Team = () => {
   const teamMembers = [
@@ -7,6 +8,20 @@ const Team = () => {
       category: 'Leadership Team',
       role: 'Strategic Vision & Direction',
       description: 'Our leadership team brings decades of combined experience in ICT strategy, digital transformation, and enterprise technology across diverse industries and markets.',
+      miniMembers: [
+        {
+          name: "Stanley Kamanguya",
+          title: "Chief Strategy Officer",
+          img: placeholder,
+          bio: "Drives long-term digital strategy and enterprise innovation."
+        },
+        {
+          name: "Stanley Kamanguya",
+          title: "Head of Operations",
+          img: placeholder,
+          bio: "Ensures operational excellence and client delivery success."
+        }
+      ],
       expertise: [
         'Enterprise Digital Strategy',
         'Technology Leadership',
@@ -18,6 +33,20 @@ const Team = () => {
       category: 'Technical Experts',
       role: 'Implementation Excellence',
       description: 'Certified professionals who bring deep technical expertise across cloud architecture, AI/ML, cybersecurity, and enterprise systems to deliver robust solutions.',
+      miniMembers: [
+        {
+          name: "Kevin Otieno",
+          title: "Senior Cloud Architect",
+          img: placeholder,
+          bio: "Specializes in building scalable multi-cloud environments and optimizing enterprise workloads."
+        },
+        {
+          name: "Anita Shah",
+          title: "AI/ML Engineering Lead",
+          img: placeholder,
+          bio: "Designs and deploys advanced machine learning systems for automation, analytics, and prediction."
+        }
+      ],
       expertise: [
         'Cloud Architecture (AWS, Azure, GCP)',
         'AI/ML Engineering',
@@ -29,6 +58,20 @@ const Team = () => {
       category: 'Advisory Consultants',
       role: 'Business Value Delivery',
       description: 'Industry specialists who understand sector-specific challenges and translate technology capabilities into measurable business outcomes.',
+      miniMembers: [
+        {
+          name: "Lucy Wanjiku",
+          title: "Business Transformation Consultant",
+          img: placeholder,
+          bio: "Helps organizations streamline processes and align technology initiatives with strategic goals."
+        },
+        {
+          name: "Michael Roberts",
+          title: "Change Management Specialist",
+          img: placeholder,
+          bio: "Guides teams through digital adoption with structured frameworks and stakeholder engagement."
+        }
+      ],
       expertise: [
         'Business Process Optimization',
         'Change Management',
@@ -40,6 +83,20 @@ const Team = () => {
       category: 'AI Strategists',
       role: 'AI Transformation',
       description: 'Specialized team focused on helping organizations navigate AI adoption—from readiness assessment to ethical implementation and workforce enablement.',
+      miniMembers: [
+        {
+          name: "Dr. Amina Khalid",
+          title: "Lead AI Strategist",
+          img: placeholder,
+          bio: "Develops enterprise AI roadmaps and ensures responsible, ethical, and high-impact adoption."
+        },
+        {
+          name: "Peter Kamau",
+          title: "MLOps & Automation Engineer",
+          img: placeholder,
+          bio: "Builds automated ML pipelines, ensuring models deploy, scale, and perform reliably in production."
+        }
+      ],
       expertise: [
         'AI Strategy & Roadmaps',
         'Use Case Identification',
@@ -48,6 +105,24 @@ const Team = () => {
       ]
     }
   ];
+
+  const MiniMemberCard = ({ member }) => {
+    return (
+      <div className="flex items-start gap-4 bg-gray-50 p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
+        <img
+          src={member.img}
+          alt={member.name}
+          className="w-16 h-16 rounded-full object-cover border border-gray-200"
+        />
+        <div>
+          <h4 className="font-bold text-gray-900">{member.name}</h4>
+          <p className="text-sm text-primary-600 font-medium">{member.title}</p>
+          <p className="text-sm text-gray-600 mt-1">{member.bio}</p>
+        </div>
+      </div>
+    );
+  };
+
 
   const certifications = [
     'AWS Certified Solutions Architect',
@@ -122,6 +197,16 @@ const Team = () => {
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     {member.description}
                   </p>
+                  {member.miniMembers && (
+                    <div className="mb-8">
+                      <h4 className="font-semibold text-gray-900 mb-4">Meet the Team:</h4>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        {member.miniMembers.map((m, i) => (
+                          <MiniMemberCard key={i} member={m} />
+                        ))}
+                      </div>
+                    </div>
+                  )}
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-3">Key Expertise:</h4>
                     <ul className="space-y-2">

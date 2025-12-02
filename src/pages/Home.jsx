@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/common/SEO';
+import bg from '../assets/bg.png'
 
 const Home = () => {
   const services = [
@@ -120,13 +121,28 @@ const Home = () => {
       <main className="pt-20">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-primary-50 via-white to-indigo-50 py-20 lg:py-28">
+          
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Enabling Digital Value Through Custom Solutions
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb- leading-tight relative">
+                <span className="inline-block bg-gradient-to-r from-gray-900 via-primary-600 to-primary-700 bg-clip-text text-transparent animate-[gradient_8s_ease-in-out_infinite] bg-[length:200%_auto] pb-4">
+                  Enabling
+                </span>
+                <span className="inline-block text-gray-900 mx-2 animate-[pulse_3s_ease-in-out_infinite]">
+                  .
+                </span>
+                <span className="inline-block bg-gradient-to-r from-primary-700 via-primary-600 to-gray-900 bg-clip-text text-transparent animate-[gradient_8s_ease-in-out_infinite_1s] bg-[length:200%_auto] pb-4">
+                  Digital
+                </span>
+                <span className="inline-block text-gray-900 mx-2 animate-[pulse_3s_ease-in-out_infinite_1s]">
+                  .
+                </span>
+                <span className="inline-block bg-gradient-to-r from-gray-900 via-blue-900 to-primary-600 bg-clip-text text-transparent animate-[gradient_8s_ease-in-out_infinite_2s] bg-[length:200%_auto] pb-4">
+                  Value
+                </span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Expert ICT investment advisory, AI strategy, cloud migration, and digital transformation consulting for forward-thinking enterprises ready to unlock measurable business value.
+                The future will run on AI, and so can you. We are here to guide you into the future and make your businessness unstoppable with AI.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link
@@ -148,10 +164,10 @@ const Home = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                How We Can Help in ICT Solutions for Modern Challenges
+                How we can help Maximimize Business Value
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From strategic planning to implementation, we deliver end-to-end ICT expertise
+                From Insight to implimentation, we deliver expert advice to transform your potential to perform up.
               </p>
             </div>
 

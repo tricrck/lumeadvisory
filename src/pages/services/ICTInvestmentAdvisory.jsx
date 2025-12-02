@@ -51,12 +51,12 @@ const ICTInvestmentAdvisory = () => {
                 Strategic guidance for technology investments. We help you identify high-value opportunities, conduct feasibility studies, navigate regulatory frameworks, and ensure long-term sustainability.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
+                {/* <Link
                   to="/contact"
                   className="bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-all font-semibold text-lg"
                 >
                   Request Investment Analysis
-                </Link>
+                </Link> */}
                 <Link
                   to="/case-studies"
                   className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg"
