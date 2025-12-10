@@ -268,7 +268,7 @@ const About = () => {
               Learn more about the professionals driving digital transformation for our clients
             </p>
             <Link
-              to="/team"
+              to="/teams"
               className="inline-block bg-white text-primary-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all font-semibold text-lg shadow-lg"
             >
               View Our Team
@@ -277,7 +277,7 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-white">
+        {/* <section className="py-20 bg-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
               Ready to Work Together?
@@ -300,7 +300,7 @@ const About = () => {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </>
   );

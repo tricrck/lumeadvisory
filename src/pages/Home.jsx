@@ -142,11 +142,11 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                The future will run on AI, and so can you. We are here to guide you into the future and make your businessness unstoppable with AI.
+                The future will run on AI, and so can you. We are here to guide you into the future and make your business unstoppable with AI.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link
-                  to="/contact"
+                  to="/ai-assessment"
                   className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg hover:bg-primary-50 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   Get AI Readiness Assessment
@@ -226,44 +226,32 @@ const Home = () => {
           </div>
         </section> */}
 
-        {/* Process Teaser */}
-        <section className="py-20 bg-white">
+        {/* Metrics Section */}
+        <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                How We Work With You
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Measurable Impact
               </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                A proven methodology that delivers results
-              </p>
             </div>
 
-            <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-              {['Assess', 'Strategy', 'Implementation', 'Optimize'].map((step, index) => (
-                <div key={index} className="text-center relative">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-600 text-white font-bold text-2xl mb-4">
-                    {index + 1}
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    {step}
-                  </h3>
-                  {index < 3 && (
-                    <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-primary-200 -ml-4" style={{ width: 'calc(100% - 2rem)' }} />
-                  )}
-                </div>
-              ))}
-            </div>
-
-            <div className="text-center mt-12">
-              <Link
-                to="/about"
-                className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold text-lg"
-              >
-                Discover Our Approach
-                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
+            <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
+              <div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">50+</div>
+                <p className="text-gray-600">Projects Delivered</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">95%</div>
+                <p className="text-gray-600">Client Satisfaction</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">4</div>
+                <p className="text-gray-600">Countries Served</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-primary-600 mb-2">15+</div>
+                <p className="text-gray-600">Years Experience</p>
+              </div>
             </div>
           </div>
         </section>
@@ -278,12 +266,6 @@ const Home = () => {
               Schedule a no-obligation consultation with our ICT experts
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/contact"
-                className="bg-white text-primary-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all font-semibold text-lg shadow-lg"
-              >
-                Book a Meeting
-              </Link>
               <Link
                 to="/contact"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-primary-600 transition-all font-semibold text-lg"

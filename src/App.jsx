@@ -19,6 +19,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import Error404 from './pages/Error404';
 import Team from './pages/Team';
+import AIAssessment from './pages/AIAssessment';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/ai-assessment" element={<AIAssessment />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />

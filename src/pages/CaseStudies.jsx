@@ -35,6 +35,17 @@ const CaseStudies = () => {
     }
   ];
 
+  const industries = [
+    'Financial Services',
+    'Telecommunications',
+    'Retail & E-commerce',
+    'Manufacturing',
+    'Government & Public Sector',
+    'Healthcare',
+    'Education',
+    'Logistics & Supply Chain'
+  ];
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -62,6 +73,28 @@ const CaseStudies = () => {
               <p className="text-xl text-gray-600 leading-relaxed">
                 Real results from enterprises. See how our ICT advisory, AI strategy, and cloud services deliver measurable value.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Industries We Serve */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Industries We Serve
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Deep expertise across diverse sectors to deliver tailored ICT solutions
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+              {industries.map((industry, index) => (
+                <div key={index} className="bg-gray-50 p-6 rounded-lg text-center hover:bg-primary-50 hover:shadow-md transition-all">
+                  <p className="font-semibold text-gray-900">{industry}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
